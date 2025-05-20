@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import MovieList from "@/components/MovieList/MovieList";
+import MovieList from "@/Components/MovieList/MovieList";
 import { getFavoriteMovies } from "@/Services/accounts/getFavoriteMovies";
 import { useGuestSession } from "@/providers/GuestSessionContext";
 

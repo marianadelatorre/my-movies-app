@@ -1,6 +1,6 @@
 import axios from "../../node_modules/axios/index";
 //import Config from "@/Config";
-import Config from "@/Config/index";
+import Config from "@/config/index";
 // Create an Axios instance
 const api = axios.create({
     baseURL: Config.API_URL,

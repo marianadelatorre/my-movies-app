@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { getMovieById } from "@/services/movies/getMovieById";
-import { markAsFavorite } from "@/services/accounts/markAsFavorite";
-import { useGuestSession } from "@/providers/GuestSessionContext";
+import { getMovieById } from "@/Services/Movies/getMovieById";
+import { markAsFavorite } from "@/Services/accounts/markAsFavorite";
+import { useGuestSession } from "@/Providers/GuestSessionContext";
 import { useParams } from "next/navigation";
 import RecommendationsCarousel from "@/Components/Carrousel/RecommendationsCarousel";
 import { getMovieRecommendations } from "@/Services/Movies/getMovieRecommendations";
